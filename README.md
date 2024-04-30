@@ -1,1 +1,1 @@
-# club-manager
+# Mobile application for managing the club
