@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/club-manager-pwa/static/css/main.9b5a30d0.css",
+    "main.js": "/club-manager-pwa/static/js/main.715d371a.js",
+    "static/js/453.29ff371e.chunk.js": "/club-manager-pwa/static/js/453.29ff371e.chunk.js",
+    "service-worker.js": "/club-manager-pwa/service-worker.js",
+    "static/media/red-dice.png": "/club-manager-pwa/static/media/red-dice.78f151684a8642b54de1.png",
+    "index.html": "/club-manager-pwa/index.html",
+    "main.9b5a30d0.css.map": "/club-manager-pwa/static/css/main.9b5a30d0.css.map",
+    "main.715d371a.js.map": "/club-manager-pwa/static/js/main.715d371a.js.map",
+    "453.29ff371e.chunk.js.map": "/club-manager-pwa/static/js/453.29ff371e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b5a30d0.css",
+    "static/js/main.715d371a.js"
+  ]
+}
