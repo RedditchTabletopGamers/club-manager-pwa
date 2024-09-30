@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/club-manager-pwa/static/css/main.e794e52c.css",
-    "main.js": "/club-manager-pwa/static/js/main.41a6f4e7.js",
+    "main.css": "/club-manager-pwa/static/css/main.c5713c12.css",
+    "main.js": "/club-manager-pwa/static/js/main.cb04a47c.js",
     "static/js/453.29ff371e.chunk.js": "/club-manager-pwa/static/js/453.29ff371e.chunk.js",
     "service-worker.js": "/club-manager-pwa/service-worker.js",
     "static/media/red-dice.png": "/club-manager-pwa/static/media/red-dice.78f151684a8642b54de1.png",
     "index.html": "/club-manager-pwa/index.html",
-    "main.e794e52c.css.map": "/club-manager-pwa/static/css/main.e794e52c.css.map",
-    "main.41a6f4e7.js.map": "/club-manager-pwa/static/js/main.41a6f4e7.js.map",
+    "main.c5713c12.css.map": "/club-manager-pwa/static/css/main.c5713c12.css.map",
+    "main.cb04a47c.js.map": "/club-manager-pwa/static/js/main.cb04a47c.js.map",
     "453.29ff371e.chunk.js.map": "/club-manager-pwa/static/js/453.29ff371e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e794e52c.css",
-    "static/js/main.41a6f4e7.js"
+    "static/css/main.c5713c12.css",
+    "static/js/main.cb04a47c.js"
   ]
 }
