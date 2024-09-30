@@ -1,23 +1,22 @@
-import React from 'react';
-import packageInfo from '../package.json';
-import logo from './red-dice.png';
+import { useState } from "react";
 import './App.css';
+import Title from "./Components/Title/Title";
+import Menu from "./Components/Menu/Menu";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>
-          Redditch Tabletop Gamers
-        </h1>
-        <h2>
-          Club Manager
-        </h2>
-        <p>Version {packageInfo.version}</p>
-      </header>
-    </div>
-  );
+const App: React.FC = () => {
+
+  const [loading, setLoading] = useState(true)
+
+  const handleChildClick = () => {
+    setLoading(false);
+  }
+
+  if (loading) {
+    return <Title onTitleClick={handleChildClick} />
+  }
+  else {
+    return <Menu/>
+  }
 }
 
 export default App;
