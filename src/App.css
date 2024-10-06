@@ -37,3 +37,21 @@
 h1, h2 {
   margin: 0;
 }
+
+.Welcome {
+  text-align: center;
+}
+
+.Welcome-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+select {
+  font-size: 22pt;
+}

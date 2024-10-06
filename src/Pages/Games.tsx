@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Games = () => {
     return (
         <>
-            <Link to="/">Main Menu &gt;</Link> <Link to="/Settings">Settings &gt;</Link> <h1>Games</h1>
+            <Link to="/Home">Main Menu &gt;</Link> <Link to="/Settings">Settings &gt;</Link> <h1>Games</h1>
         </>
     )
 };

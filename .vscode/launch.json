@@ -5,11 +5,16 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "msedge",
+            "type": "chrome",
             "request": "launch",
-            "name": "Launch Edge against localhost",
-            "url": "http://localhost:3000",
-            "webRoot": "${workspaceFolder}"
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:3000", // Update this if your app runs on a different port
+            "webRoot": "${workspaceFolder}/src",
+            "sourceMaps": true,
+            "trace": true,
+            "skipFiles": [
+              "<node_internals>/**"
+            ]
           }
     ]
 }

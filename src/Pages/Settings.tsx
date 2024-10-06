@@ -5,7 +5,7 @@ import SettingsMenu from '../Components/SettingsMenu/SettingsMenu'
 const Settings = () => {
     return (
         <>
-            <Link to="/">Main Menu &gt;</Link> <h1>Settings</h1>
+            <Link to="/Home">Main Menu &gt;</Link> <h1>Settings</h1>
             <SettingsMenu />
         </>
     )
