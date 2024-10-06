@@ -1,6 +1,6 @@
 import logo from '../../red-dice.png';
 import packageInfo from '../../../package.json';
-import './Title.css';
+import './Logo.css';
 
 interface ChildProps {
   onTitleClick: () => void; // Define the prop type

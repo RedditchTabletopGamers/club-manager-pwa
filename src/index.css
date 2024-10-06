@@ -1,5 +1,8 @@
 :root {
-  --background-colour: #550000;
+  --background-colour: var(--dark-red);
+  --dark-red: #550000;
+  --mid-red: #800000;
+  --light-red: #AA0000;
 }
 
 body {
@@ -17,16 +20,17 @@ body {
   letter-spacing: 0.05em;
 
   background-color: var(--background-colour);
+
+  color: white;
 }
 
-.dark-red {
-  background-color: #550000;
+a {
+  color: var(--light-red);
+  text-decoration: none;
+  font-size: 32px;
 }
 
-.mid-red {
-  background-color: #800000;
-}
-
-.light-red {
-  background-color: #AA0000;
+h1 {
+  font-size: 32px;
+  display: inline;
 }
