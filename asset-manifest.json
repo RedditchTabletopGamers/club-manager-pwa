@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.fe1abdf8.css",
-    "main.js": "/static/js/main.b74e5595.js",
-    "static/js/453.29ff371e.chunk.js": "/static/js/453.29ff371e.chunk.js",
-    "service-worker.js": "/service-worker.js",
-    "static/media/red-dice.png": "/static/media/red-dice.78f151684a8642b54de1.png",
-    "index.html": "/index.html",
-    "main.fe1abdf8.css.map": "/static/css/main.fe1abdf8.css.map",
-    "main.b74e5595.js.map": "/static/js/main.b74e5595.js.map",
-    "453.29ff371e.chunk.js.map": "/static/js/453.29ff371e.chunk.js.map"
+    "main.css": "/club-manager-pwa/static/css/main.980808d6.css",
+    "main.js": "/club-manager-pwa/static/js/main.1335cc63.js",
+    "static/js/453.29ff371e.chunk.js": "/club-manager-pwa/static/js/453.29ff371e.chunk.js",
+    "service-worker.js": "/club-manager-pwa/service-worker.js",
+    "static/media/red-dice.png": "/club-manager-pwa/static/media/red-dice.78f151684a8642b54de1.png",
+    "index.html": "/club-manager-pwa/index.html",
+    "main.980808d6.css.map": "/club-manager-pwa/static/css/main.980808d6.css.map",
+    "main.1335cc63.js.map": "/club-manager-pwa/static/js/main.1335cc63.js.map",
+    "453.29ff371e.chunk.js.map": "/club-manager-pwa/static/js/453.29ff371e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe1abdf8.css",
-    "static/js/main.b74e5595.js"
+    "static/css/main.980808d6.css",
+    "static/js/main.1335cc63.js"
   ]
 }
