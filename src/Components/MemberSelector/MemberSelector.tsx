@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { memberList, Member } from '../../Data/members';
+import React, { useState } from 'react';
+import { memberList } from '../../Data/members';
 
 
 const MemberSelect: React.FC = () => {
