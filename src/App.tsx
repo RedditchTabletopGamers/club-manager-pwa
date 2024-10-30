@@ -1,6 +1,6 @@
 import './App.css';
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Welcome from './Pages/Welcome';
 import Home from './Pages/Home';
 import CollectSubs from './Pages/CollectSubs';
@@ -26,6 +26,7 @@ const App = () => {
           <Route path="/settings/charges" element={<Charges />} />
           <Route path="/settings/dayofweek" element={<DayOfWeek />} />
           <Route path="/settings/games" element={<Games />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Router>
     </>
