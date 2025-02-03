@@ -10,9 +10,9 @@ const Welcome = () => {
           <a href="/Home">
             <Logo />
           </a>
-          <h1>
-            Redditch Tabletop Gamers
-          </h1>
+            <div className="Welcome-logo-text">
+              <span className="Welcome-logo-text-red">Redditch</span> <span className="Welcome-logo-text-white">Tabletop</span> <span className="Welcome-logo-text-red">Gamers</span>
+            </div>
           <h2>
             Club Manager
           </h2>

@@ -55,3 +55,29 @@ h1, h2 {
 select {
   font-size: 22pt;
 }
+
+.Welcome-logo-container {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+.Welcome-logo-text {
+  font-size: 32pt;
+  text-shadow:
+  2px 2px 0 var(#000),
+  -2px 2px 0 var(#000),
+  -2px -2px 0 var(#000),
+  2px -2px 0 var(#000);
+  display: inline-block;
+  padding-bottom: 10px;
+  text-transform: lowercase;
+}
+
+.Welcome-logo-text-red {
+  color: var(--light-red);
+}
+
+.Welcome-logo-text-white {
+  color: white !important;
+}

@@ -1,17 +1,25 @@
 import './MainMenu.css';
-import { Link } from 'react-router-dom';
+import MenuOption from '../MenuOption/MenuOption';
 
 const Menu = () => {
 
   return (
       <nav className="Menu">
         <div className="Title">Main Menu</div>
-        <ul>
-          <li className="button-77"><Link to="/CollectSubs">Collect Subs</Link></li>
-          <li className="button-77"><Link to="/Members">Club Members</Link></li>
-          <li className="button-77"><Link to="/Data">Data</Link></li>
-          <li className="button-77"><Link to="/Settings">Settings</Link></li>
-        </ul>
+        <div className="container">
+          <div className="row">
+              <MenuOption caption="Collect Subs" target="/CollectSubs" />
+              <MenuOption caption="Members" target="/CollectSubs" />
+          </div>
+          <div className="row">
+            <MenuOption caption="Data" target="/CollectSubs" />
+            <MenuOption caption="Settings" target="/CollectSubs" />
+          </div>
+          <div className="row">
+            <MenuOption caption="Ad Hoc Payment" target="/CollectSubs" />
+            <MenuOption caption="Link 1" target="/CollectSubs" />
+          </div>
+      </div>
       </nav>
     );
 }

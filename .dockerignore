@@ -1,0 +1,32 @@
+# Node modules and log files
+node_modules
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Build and test outputs
+build
+dist
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Cache and editor config files
+.cache
+.DS_Store
+.idea
+.vscode
+*.swp
+
+# Git files
+.git
+.gitignore
+
+# Docker files (if they're not needed in the build context)
+.dockerignore
+Dockerfile
+
+# Miscellaneous
+*.md

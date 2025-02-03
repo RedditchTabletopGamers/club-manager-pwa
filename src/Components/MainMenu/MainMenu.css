@@ -12,6 +12,16 @@
   margin: 20px;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.row {
+  display: flex;
+  gap: 30px;
+}
+
 .Menu ul {
   display: inline-block;
   text-align: left;
